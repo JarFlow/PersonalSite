@@ -9,6 +9,19 @@ body {
     padding: 7rem 0;
 }
 
+#bio {
+    padding: 3rem 0;
+}
+
+#projects {
+    padding: 3rem 0 ;
+    background-color: #222831;
+}
+
+#know-langs {
+    background-color: #474E68;
+}
+
 .welcome {
     margin: 3rem 0 0 3rem;
 }
@@ -17,9 +30,6 @@ body {
     margin: 5rem 0 0 10rem;
 }
 
-.wow-meme {
-    height: 10rem;
-}
 
 .lang-icons {
     height: 3rem;
@@ -39,4 +49,16 @@ body {
 
 .link-icon {
     height: 3rem;
+}
+
+.per-photo {
+    height: 13rem;
+}
+
+.projects-text {
+    margin-bottom: 3rem;
+}
+
+.wow-meme {
+    height: 12rem;
 }
