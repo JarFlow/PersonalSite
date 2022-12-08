@@ -1,7 +1,20 @@
 body {
-    background-color: hsl(0, 0%, 20%);
+    background-color: #001220;
     color: hsl(0, 0%, 100%);
 
+}
+
+#opening {
+    background-color: #920097;
+    padding: 7rem 0;
+}
+
+.welcome {
+    margin: 3rem 0 0 3rem;
+}
+
+.email-button {
+    margin: 5rem 0 0 10rem;
 }
 
 .wow-meme {
@@ -10,6 +23,18 @@ body {
 
 .lang-icons {
     height: 3rem;
+}
+
+.enter-svg-spacer {
+    aspect-ratio: 900/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.waves-purple {
+    background-image: url(../images/waves.svg);
 }
 
 .link-icon {
