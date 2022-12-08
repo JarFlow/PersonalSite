@@ -15,11 +15,13 @@ body {
 
 #projects {
     padding: 3rem 0 ;
-    background-color: #222831;
+    background-color: #393E46;
 }
 
-#know-langs {
-    background-color: #474E68;
+#known-langs {
+    text-align: center;
+    background-color: #222831;
+    padding: 3rem 0;
 }
 
 .welcome {
@@ -61,4 +63,8 @@ body {
 
 .wow-meme {
     height: 12rem;
+}
+
+.languages {
+    padding: 2rem 0 0 0;
 }
