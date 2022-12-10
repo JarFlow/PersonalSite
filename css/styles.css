@@ -11,6 +11,7 @@ body {
 
 #bio {
     padding: 3rem 0;
+    margin: 6rem 3rem;
 }
 
 #projects {
@@ -28,6 +29,11 @@ body {
     text-align: center;
     margin-top: 5rem;
     padding-top: 0rem;
+}
+
+#footer {
+    text-align: right;
+    margin-right: 1rem;
 }
 
 .welcome {
@@ -66,6 +72,7 @@ body {
 
 .per-photo {
     height: 13rem;
+    margin-top: 1rem;
 }
 
 .projects-text {
@@ -79,3 +86,4 @@ body {
 .languages {
     padding: 2rem 0 0 0;
 }
+
