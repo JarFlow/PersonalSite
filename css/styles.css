@@ -1,40 +1,35 @@
 body {
-    background-color: #001220;
-    color: hsl(0, 0%, 100%);
+    background-color: #EEEEEE;
+    color: #393E46;
 
 }
 
 #opening {
-    background-color: #920097;
-    padding: 7rem 0;
-}
-
-#bio {
-    padding: 3rem 0;
-    margin: 6rem 3rem;
+    background-color: #00ADB5;
+    padding: 4rem 0;
 }
 
 #projects {
     padding: 3rem 0 ;
     background-color: #393E46;
+    color: #EEEEEE;
 }
 
 #known-langs {
     text-align: center;
-    background-color: #222831;
     padding: 3rem 0;
+    
+   
 }
 
 #cta {
     text-align: center;
-    margin-top: 5rem;
-    padding-top: 0rem;
+    padding: 2rem 0;
+    background-color: #222831;
+    color: #EEEEEE ;
 }
 
-#footer {
-    text-align: right;
-    margin-right: 1rem;
-}
+
 
 .welcome {
     margin: 3rem 0 0 3rem;
@@ -50,7 +45,7 @@ body {
 }
 
 .enter-svg-spacer {
-    aspect-ratio: 900/100;
+    aspect-ratio: 900/200;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,6 +70,12 @@ body {
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 400px) {
+    .per-photo {
+        height: 6rem;
+    }
+}
+
 .projects-text {
     margin-bottom: 3rem;
 }
@@ -87,3 +88,13 @@ body {
     padding: 2rem 0 0 0;
 }
 
+.footer {
+    text-align: right;
+    margin: 0;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.footer-text {
+    margin: 0 1rem;
+}
